@@ -14,12 +14,23 @@ const randFloat=(min, max, decimalPlaces) =>{
   return Math.floor(rand*power) / power;
 }
 
+// const healthNormalData = {
+//   steps:randData(5000,8000),
+//   bodyTemperature: randFloat(35.5, 37.5,1),
+//   bloodPressure: randData(80, 120),
+//   respiration: randData(12, 16),
+//   glucose: randData(72, 140),
+//   heartRate: randData(60, 100),
+//   cholesterol: randData(125, 200),
+//   oxygenSaturation: randData(95, 100),
+// };
+
 const healthNormalData = {
   steps:randData(5000,8000),
   bodyTemperature: randFloat(35.5, 37.5,1),
   bloodPressure: randData(80, 120),
   respiration: randData(12, 16),
-  glucose: randData(72, 140),
+  glucose: randData(72,140),
   heartRate: randData(60, 100),
   cholesterol: randData(125, 200),
   oxygenSaturation: randData(95, 100),
